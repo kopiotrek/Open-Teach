@@ -1,6 +1,7 @@
 services:
   server:
     tty: true 
+    stdin_open: true
     build:
       # context: .  # Specify the build context if it's not the current directory
       dockerfile: dockerfiles/allegro_hand_sim.dockerfile
