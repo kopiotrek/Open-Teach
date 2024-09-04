@@ -1,0 +1,8 @@
+services:
+  server:
+    tty: true 
+    build:
+      # context: .  # Specify the build context if it's not the current directory
+      dockerfile: dockerfiles/allegro_hand_sim.dockerfile
+    # working_dir: /home/Open-Teach  # Change this to the absolute path inside the container
+    # command: tail -F anything
